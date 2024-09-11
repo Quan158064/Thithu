@@ -1,0 +1,72 @@
+.exam-detail-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.exam-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f5f5f5;
+	padding: 10px;
+	border-bottom: 2px solid #ccc;
+	position: relative;
+}
+
+.exam-title {
+	margin: auto;
+}
+
+.exam-title h1 {
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+}
+
+.back-button {
+	position: absolute;
+	right: 8px;
+}
+
+.back-button button {
+	padding: 10px 20px;
+}
+
+.exam-info {
+	background-color: #f9f9f9;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.questions-section {
+	margin-top: 20px;
+}
+
+.question-item {
+	margin-bottom: 20px;
+}
+
+.exam-footer {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.submit-button {
+	color: white;
+	border: none;
+	padding: 20px 30px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.countdown-timer {
+	position: fixed;
+	right: 60px;
+	top: 100px;
+	border: 1px solid black;
+	padding: 12px;
+}

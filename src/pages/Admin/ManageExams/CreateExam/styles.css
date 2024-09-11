@@ -1,0 +1,14 @@
+.create-exam .ant-radio-wrapper {
+	width: 100%;
+}
+
+.create-exam .ant-radio-wrapper .ant-radio {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+
+.create-exam .ant-radio-wrapper span:last-child {
+	width: 100%;
+	padding-inline-end: 0px;
+}

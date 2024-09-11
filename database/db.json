@@ -1,0 +1,350 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "1111111",
+      "username": "admin",
+      "role": "admin",
+      "currentPassword": "111111"
+    },
+    {
+      "id": "2",
+      "email": "user1@gmail.com",
+      "password": "1111111",
+      "username": "user1",
+      "role": "user",
+      "currentPassword": "1"
+    },
+    {
+      "id": "8302",
+      "email": "user2@gmail.com",
+      "username": "user2",
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "013c",
+      "email": "user3@gmail.com",
+      "username": "user3",
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "f84e",
+      "email": "maihongquan200@gmail.com",
+      "username": "user2@gmail.com",
+      "password": "1111111",
+      "role": "user"
+    },
+    {
+      "id": "cd1a",
+      "email": "cogaihalan@gmail.com",
+      "username": "user3@gmail.com",
+      "password": "122212",
+      "role": "user"
+    }
+  ],
+  "exams": [
+    {
+      "id": "6551",
+      "title": "Đề thi HTML 1",
+      "time": "15",
+      "subject": "html",
+      "level": "basic",
+      "questions": [
+        {
+          "question": "HTML là gì",
+          "answers": [
+            "Đáp án A1",
+            "Đáp án B1",
+            "Đáp án C1",
+            "Đáp án D1"
+          ],
+          "answer_correct": "B"
+        },
+        {
+          "question": "HTML dùng như thế nào",
+          "answers": [
+            "Đáp án A2",
+            "Đáp án B2",
+            "Đáp án C2",
+            "Đáp án D2"
+          ],
+          "answer_correct": "C"
+        }
+      ],
+      "highest_point": 2,
+      "timesTaken": null
+    },
+    {
+      "id": "0aa2",
+      "title": "Đề thi CSS1",
+      "time": "20",
+      "subject": "css",
+      "level": "medium",
+      "questions": [
+        {
+          "question": "CSS là gì",
+          "answers": [
+            "Đáp án A1",
+            "Đáp án B1",
+            "Đáp án C1",
+            "Đáp án D1"
+          ],
+          "answer_correct": "B"
+        },
+        {
+          "question": "CSS dùng để làm gì",
+          "answers": [
+            "Đáp án A2",
+            "Đáp án B2",
+            "Đáp án C2",
+            "Đáp án D2"
+          ],
+          "answer_correct": "C"
+        }
+      ],
+      "highest_point": null,
+      "timesTaken": null
+    },
+    {
+      "id": "c194",
+      "title": "Đề thi javascript 1",
+      "time": "20",
+      "subject": "javascript",
+      "level": "advanced",
+      "questions": [
+        {
+          "question": "Javascript là gì",
+          "answers": [
+            "Đáp án A1",
+            "Đáp án B1",
+            "Đáp án C1",
+            "Đáp án D1"
+          ],
+          "answer_correct": "A"
+        },
+        {
+          "question": "Javascript dùng để làm gì",
+          "answers": [
+            "Đáp án A2",
+            "Đáp án B2",
+            "Đáp án C2",
+            "Đáp án D2"
+          ],
+          "answer_correct": "A"
+        }
+      ],
+      "highest_point": null
+    },
+    {
+      "id": "35f8",
+      "title": "Đề thi reactjs 1",
+      "time": "20",
+      "subject": "reactjs",
+      "level": "medium",
+      "questions": [
+        {
+          "question": "ReactJS là gì",
+          "answers": [
+            "Đáp án A1",
+            "Đáp án B1",
+            "Đáp án C1",
+            "Đáp án D1"
+          ],
+          "answer_correct": "C"
+        },
+        {
+          "question": "ReactJS dùng để làm gì",
+          "answers": [
+            "Đáp án A2",
+            "Đáp án B2",
+            "Đáp án C2",
+            "Đáp án D2"
+          ],
+          "answer_correct": "C"
+        }
+      ],
+      "highest_point": null
+    },
+    {
+      "id": "cef7",
+      "title": "ANC",
+      "time": "12",
+      "subject": "nodejs",
+      "level": "basic",
+      "questions": [
+        {
+          "question": "Bao lâu là 1 phút ?",
+          "answers": [
+            "12s",
+            "30s",
+            "60s",
+            "123s"
+          ],
+          "answer_correct": null
+        },
+        {
+          "question": null,
+          "answers": [],
+          "answer_correct": null
+        }
+      ],
+      "highest_point": null
+    }
+  ],
+  "histories": [
+    {
+      "id": "4af9",
+      "idUser": 1,
+      "idExam": "6551",
+      "subject": "html",
+      "title": "Đề thi HTML 1",
+      "time_progess": 4,
+      "score": 1
+    },
+    {
+      "id": "4891",
+      "idUser": 1,
+      "idExam": "6551",
+      "subject": "html",
+      "title": "Đề thi HTML 1",
+      "time_progess": 3,
+      "score": 2
+    },
+    {
+      "id": "72ca",
+      "idUser": 1,
+      "idExam": "6551",
+      "subject": "html",
+      "title": "Đề thi HTML 1",
+      "time_progess": 2,
+      "score": 0
+    },
+    {
+      "id": "09c2",
+      "idUser": "2",
+      "idExam": "6551",
+      "subject": "html",
+      "title": "Đề thi HTML 1",
+      "time_progess": 5,
+      "score": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": "1724503220151",
+      "content": "abc",
+      "userId": "2",
+      "examId": "6551",
+      "timestamp": "2024-08-24T12:40:20.151Z"
+    },
+    {
+      "id": "1725086338442",
+      "content": "abc",
+      "userId": "2",
+      "examId": "0aa2",
+      "timestamp": "2024-08-31T06:38:58.442Z"
+    }
+  ],
+  "timesTaken": [
+    {
+      "id": "1",
+      "title": "Đề thi 1",
+      "subject": "html",
+      "numQuestions": 50,
+      "duration": 40,
+      "maxScore": 9,
+      "level": "cơ bản",
+      "timesTaken": 151
+    },
+    {
+      "id": "2",
+      "title": "Đề thi 2",
+      "subject": "css",
+      "numQuestions": 40,
+      "duration": 30,
+      "maxScore": 10,
+      "level": "nâng cao",
+      "timesTaken": 200
+    },
+    {
+      "id": "35f8",
+      "title": "Đề thi reactjs 1",
+      "subject": "reactjs",
+      "numQuestions": 2,
+      "duration": "20",
+      "maxScore": 10,
+      "level": "medium",
+      "timesTaken": 2
+    },
+    {
+      "id": "6551",
+      "title": "Đề thi HTML 1",
+      "subject": "html",
+      "numQuestions": 2,
+      "duration": "15",
+      "maxScore": 2,
+      "level": "basic",
+      "timesTaken": 6
+    },
+    {
+      "id": "cef7",
+      "title": "ANC",
+      "subject": "nodejs",
+      "numQuestions": 2,
+      "duration": "12",
+      "maxScore": 10,
+      "level": "basic",
+      "timesTaken": 2
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1",
+      "name": "HTML",
+      "value": "html"
+    },
+    {
+      "id": "2",
+      "name": "CSS",
+      "value": "css"
+    },
+    {
+      "id": "3",
+      "name": "JavaScript",
+      "value": "javascript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS",
+      "value": "reactjs"
+    },
+    {
+      "id": "5",
+      "name": "NodeJS",
+      "value": "nodejs"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "7118",
+      "name": "Mai Hồng Quân ",
+      "email": "maihongquan200@gmail.com",
+      "content": "Tôi rất vui khi được sử dụng web"
+    },
+    {
+      "id": "4fcf",
+      "name": "Mai Hồng Quân ",
+      "email": "maihongquan2001@gmail.com",
+      "content": "rất good"
+    },
+    {
+      "id": "ffcd",
+      "name": "Mai Hồng Quân ",
+      "email": "maihongquan2001@gmail.com",
+      "content": "rất là oke"
+    }
+  ]
+}
